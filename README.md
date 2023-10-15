@@ -14,8 +14,6 @@ The PatchCamelyon benchmark is a new and challenging image classification datase
 
 PCam packs the clinically-relevant task of metastasis detection into a straight-forward binary image classification task, akin to CIFAR-10 and MNIST. Models can easily be trained on a single GPU in a couple hours, and achieve competitive scores in the Camelyon16 tasks of tumor detection and whole-slide image diagnosis. Furthermore, the balance between task-difficulty and tractability makes it a prime suspect for fundamental machine learning research on topics as active learning, model uncertainty, and explainability.
 
-The data has 2 folders of training and testing images and a file of training labels.
-
 Model The proposed model is built by transfer learning of pretrained Xception and MobileNetV2 with Global Average Pooling, 0.5 Dropout, Dense Layer with sigmoid activation, Adam optimization and binary_crossentropy. The model was trained for 10 epoches. Implemented using Keras.
 
-Result The model achieved an accuracy of 90%.
+Result The model achieved an accuracy of 92%.
